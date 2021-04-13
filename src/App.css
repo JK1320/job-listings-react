@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -26,6 +26,113 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.job-container {
+  background-color: #fff;
+  margin-top: 2%;
+  display: flex;
+  box-shadow: 0 4px 6px 4px rgba(91, 164, 164, 0.2);
+  width: 80%;
+  margin-left: 10%;
+  padding: 2%;
+}
+
+.job-container--borderLeft {
+  border-left: 5px solid hsl(180, 29%, 50%);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: calc(2vw + -4rem);
+}
+
+ul {
+  width: 70vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  margin: 1.3rem 0;
+  position: relative;
+  box-shadow: 0 4px 6px 4px rgba(91, 164, 164, 0.2);
+  
+}
+
+ul li {
+  list-style: none;
+}
+
+.part1 {
+  margin-left: 2%;
+  width: 50%;
+}
+
+.part2 {
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 50%;
+  margin-right: 0;
+}
+
+.company {
+  display: flex;
+}
+
+.cName {
+  color: hsl(180, 29%, 50%);
+}
+
+.new {
+  color: white;
+  background-color: hsl(180, 29%, 50%);
+  border-radius: 35%;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.featured {
+  color: white;
+  background-color: black;
+  border-radius: 35%;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.position {
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(180, 8%, 52%);
+}
+
+.btn {
+  color: hsl(180, 29%, 50%);
+  background-color: hsl(180, 52%, 96%);
+  margin-right: 2%;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+
+.btn:hover {
+  color: white;
+  background-color: hsl(180, 29%, 50%);
+}
+
+.clear-btn {
+  border: none;
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
