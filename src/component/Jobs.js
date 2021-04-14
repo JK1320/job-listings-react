@@ -6,7 +6,10 @@ const Jobs = ({data, setKeywords, keywords}) => {
 const [filteredData, setFilteredData] = useState([]);
 
 
-    const modifiedData = () => {
+    
+
+    useEffect(() => {
+      const modifiedData = () => {
         if (keywords.length > 0) {
             const newData = filteredData.filter(d => {
                 return (
@@ -25,9 +28,8 @@ const [filteredData, setFilteredData] = useState([]);
             setFilteredData(data);
         }
     }
-
-    useEffect(() => {
-      modifiedData()
+    modifiedData()
+    // eslint-disable-next-line
     },[keywords])
 
     return (
