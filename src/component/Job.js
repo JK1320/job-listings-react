@@ -6,7 +6,7 @@ const {
     company,
     contract,
     featured,
-    id,
+    // id,
     languages,
     level,
     location,

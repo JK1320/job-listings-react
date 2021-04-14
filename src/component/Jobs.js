@@ -28,7 +28,7 @@ const [filteredData, setFilteredData] = useState([]);
 
     useEffect(() => {
       modifiedData()
-        },[keywords])
+    },[keywords])
 
     return (
         <div className="jobs">
